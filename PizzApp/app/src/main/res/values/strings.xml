@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PizzApp</string>
+    <string name="title">Leo Pizza</string>
+    <string name="question">Select one pizza from menu : </string>
+</resources>
