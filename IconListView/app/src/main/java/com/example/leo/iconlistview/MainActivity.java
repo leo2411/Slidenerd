@@ -55,8 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-        class MyViewHolder
-        {
+        class MyViewHolder {
             ImageView myImage;
             TextView myTitle;
             TextView myDescription;
