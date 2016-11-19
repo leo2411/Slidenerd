@@ -55,21 +55,48 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+        class MyViewHolder
+        {
+            ImageView myImage;
+            TextView myTitle;
+            TextView myDescription;
+
+            MyViewHolder(View v)
+            {
+                myImage = (ImageView) v.findViewById(R.id.imageView);
+                myTitle = (TextView) v.findViewById(R.id.textView2);
+                myDescription = (TextView) v.findViewById(R.id.textView3);
+            }
+
+        }
+
+
+
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            LayoutInflater inflater= (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            View row = inflater.inflate(R.layout.single_row,parent,false);
 
-            ImageView myImage = (ImageView) row.findViewById(R.id.imageView);
-            TextView myTitle = (TextView) row.findViewById(R.id.textView2);
-            TextView myDescription = (TextView) row.findViewById(R.id.textView3);
+            View row = convertView;
+            MyViewHolder holder = null;
 
-            myImage.setImageResource(images[position]);
-            myTitle.setText(titleArray[position]);
-            myDescription.setText(descArray[position]);
+            if(row==null)
+            {
+                LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                row = inflater.inflate(R.layout.single_row, parent, false);
+                holder = new MyViewHolder(row);
+                row.setTag(holder);
+            }
+            else
+            {
+                holder = (MyViewHolder) row.getTag();
+            }
+
+
+            holder.myImage.setImageResource(images[position]);
+            holder.myTitle.setText(titleArray[position]);
+            holder.myDescription.setText(descArray[position]);
 
             return row;
-        }
+        }   
     }
 
 }
