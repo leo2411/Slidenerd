@@ -14,10 +14,21 @@ import android.widget.TextView;
 public class FragmentB extends Fragment{
 
     TextView text;
+    String data;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_b,container,false);
+        View view = inflater.inflate(R.layout.fragment_b,container,false);
+        if(savedInstanceState==null) // fragment made for the first time
+        {
+        }
+        else
+        {
+           data = savedInstanceState.getString("text");
+            TextView myText = (TextView) view.findViewById(R.id.textView);
+            myText.setText(data);
+        }
+        return view;
     }
 
 
@@ -27,8 +38,15 @@ public class FragmentB extends Fragment{
         text = (TextView) getActivity().findViewById(R.id.textView);
     }
 
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("text",data);
+    }
+
     public  void changeText(String data)
     {
+        this.data = data;
         text.setText(data);
     }
 }
