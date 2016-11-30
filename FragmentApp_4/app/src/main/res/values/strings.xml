@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FragmentApp_4</string>
+    <string-array name="titles">
+        <item>Item1</item>
+        <item>Item2</item>
+        <item>Item3</item>
+        <item>Item4</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Google Android je prvi otvoreni operacijski sustav za mobilne uređaje (mobilni telefoni, tableti, netbook računala, Google TV) pokrenut od strane Google Inc. i vođen od strane Open Handset Alliance </item>
+        <item>Android je modularan i prilagodljiv pa tako postoje slučajevi njegovog prenošenja (portanja) na razne uređaje kao što su čitači elektronskih knjiga, mobilni telefoni, prijenosnici, te multimedijski playeri.</item>
+        <item>Android Inc. su osnovali Andy Rubin, Rich Miner, Nick Sears i Chris White u listopadu 2003. godine kako bi razvijali programe za pametne mobilne uređaje koji bi uzimali u obzir korisničke postavke te njegovu lokaciju</item>
+        <item>Android je zasnovan na jezgri Linux 2.6 i napisanom u C/C++ programskom jeziku.</item>
+    </string-array>
+
+
+</resources>

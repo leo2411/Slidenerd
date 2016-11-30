@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.leo.fragmentapp_4.FragmentA"
+        android:layout_alignParentTop="true"
+        android:id="@+id/fragment" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.leo.fragmentapp_4.FragmentB"
+        android:layout_below="@+id/fragment"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fragment2" />
+</RelativeLayout>
