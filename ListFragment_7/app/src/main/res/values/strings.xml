@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ListFragment_7</string>
+    <string-array name="mxrider">
+        <item>Ken Roczen</item>
+        <item>Eli Tomac</item>
+        <item>Justin Barcia</item>
+        <item>Ryan Dungey</item>
+        <item>Tim Gajser</item>
+    </string-array>
+</resources>
