@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Mx_demo</string>
+    <string-array name="mx_riders">
+        <item>Ken Roczen</item>
+        <item>Tim Gajser</item>
+        <item>Justin Barcia</item>
+        <item>Cooper Webb</item>
+        <item>Jeffrey Herlings</item>
+        <item>Ryan Dungey</item>
+        <item>Eli Tomac</item>
+        <item>Tony Cairoli</item>
+        <item>Romain Febvre</item>
+        <item>Marvin Musquin</item>
+        <item>James Stewart</item>
+        <item>Ryan Villopoto</item>
+        <item>Chad Reed</item>
+    </string-array>
+
+
+    <string-array name="description">
+        <item>Ken Roczen (born 29 April 1994 in Mattstedt, Germany) is a German professional motocross and supercross racer. He is an MX2-class motocross world champion, 250-class west coast supercross champion and 450-class US motocross champion.[1]</item>
+        <item>Tim Gajser (born September 8, 1996 in Ptuj) is a Slovenian professional motocross racer. He competes in the FIM MXGP world championships as a rider for Gariboldi Honda motocross racing team managed by Giacomo Gariboldi.[1]
+
+In the 2015 FIM Motocross World Championship season, he won his first world championship in the MX2.[2] Gajser moved up to the MX1 class and won the 2016 MX1 Motocross World Championship.[3]</item>
+        <item>Justin ‘Wild Child’ Barcia is a native of New York where he grew up riding the motocross circuit. He relocated to Georgia to train at the Millsaps Training Facility, and turned pro during the 2009 season. Barcia made an impressive debut in the AMA 250 Motocross Championship with second-place finishes at both Hangtown and Thunder Valley. Finishing fifth overall in the series, Barcia nabbed eight podiums and won the first moto at Southwick in Massachusetts.</item>
+        <item>Professional dirt bike racer for Star Racing Yamaha who took home first place at the 2015 Anaheim 2 Supercross and the 2015 Phoenix Supercross. He was also 3rd overall in the Lucas Oil Pro Motocross Championship 250 Class.</item>
+        <item>Jeffrey Herlings[1] (born September 12, 1994 in Geldrop) is a Dutch professional motocross racer who competes in the MX2-GP Motocross World Championship for the Red Bull KTM factory racing team.</item>
+        <item>Ryan Michael Dungey (born December 4, 1989) is an American professional motocross racer competing in the AMA Supercross and Motocross championships. Ryan Dungey is the current 450cc class Monster Energy Supercross champion and AMA 450 Motocross Champion.</item>
+        <item>Son of mountain bike legend John Tomac, Eli became the first racer to win the first pro race he entered, the 2010 Lucas Oil Pro Motocross season opener at Hangtown. With a Supercross title now under his belt, the multi-time amateur national champion is one of the fastest riders in the sport right now.</item>
+        <item>Antonio "Tony" Cairoli (born 23 September 1985) is an Italian eight-time Grand Prix motocross world champion and widely regarded as one of the greatest motocross riders of all time.[2]</item>
+        <item>Romain Febvre (born December 31, 1991) is a French professional motocross racer.[1][2] He won the 2015 FIM Motocross World Championship in the MXGP class for motorcycles displacing 450cc.[3]</item>
+        <item>Marvin Musquin (born December 30, 1989 in La Reole, France) is a French professional motocross racer.
+
+In 2004, Musquin won the European Motocross Championship in the 85cc class. He followed this by winning the 2006 125cc Junior World Championship. He competed on a privateer Honda in the 2008 F.I.M. MX2-GP world championship, finishing in 14th place.</item>
+        <item>James Stewart Jr. (born December 21, 1985), also known as Bubba Stewart, is an American professional motocross racer competing in supercross, currently riding the No. 7.</item>
+        <item>Ryan Villopoto (born August 13, 1988 in Poulsbo, Washington) is a motocross and supercross racer.[1]
+
+Villopoto competed in the AMA Supercross series and the AMA Lucas Oil Motocross series. The four-time supercross and three-time motocross champion resides in Poulsbo, Washington and raced for Monster Energy Kawasaki in the supercross and outdoor motocross series. </item>
+    <item>Chad Reed</item>
+    </string-array>
+</resources>
